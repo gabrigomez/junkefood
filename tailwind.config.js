@@ -8,6 +8,9 @@ module.exports = {
         secondary: {
           100: '#EBA83A'
         }
+      },
+      fontFamily: {
+        body: ['Josefin Sans']
       }
     },
   },
