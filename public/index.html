@@ -9,98 +9,102 @@
 </head>
 
 <body class="text-yellow-500 font-body">
-    <div>
-        <div>
-            <nav>
-                <div>
-                    <h1 class="text-primary text-6xl font-bold uppercase border-b border-yellow-200 mb-4 p-2">
-                        <a href="/">Junkefood</a>
-                    </h1>
-                </div>
-                <ul class="text-secondary">
-                    <li class="text-bold">
-                        <a href="">
-                            <span>Pagina Inicial</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <span>Sobre</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <span>Contato</span>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
+    <div class="grid md:grid-cols-3">
+        <div class="col md:col-span-1">
+            <div>
+                <nav>
+                    <div>
+                        <h1
+                            class="text-primary lg:text-5xl text-3xl font-bold uppercase border-b border-yellow-200 mb-4 p-2">
+                            <a href="/">Junkefood</a>
+                        </h1>
+                    </div>
+                    <ul class="text-secondary">
+                        <li class="text-bold">
+                            <a href="">
+                                <span>Pagina Inicial</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span>Sobre</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span>Contato</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </div>
+
+        <main class="px-16 py-6 bg-gray-100 md:col-span-2">
+            <div class="py-6 flex justify-center md:justify-end ">
+                <a href="#" class="px-4">Entrar </a>
+                <a href="#">Inscrever-se </a>
+            </div>
+
+            <header>
+                <h2 class="text-red-500 text-4xl semibold">Lanches</h2>
+                <h2 class="text-red-500 text-lg semibold">Pros Grande</h2>
+            </header>
+
+            <div>
+                <h4 class="font-semibold mt-12 pb-2 border-b border-yellow-100">Últimos Lanches</h4>
+
+                <div class="mt-8 grid md:grid-cols-3 gap-8">
+                    <div class="card">
+                        <img src="https://d1ralsognjng37.cloudfront.net/10d6e58b-fee7-45bc-b666-a6c100c2c01e.jpeg"
+                            alt="" class="w-full h-64 object-cover">
+                        <div class="m-4">
+                            <span class="font-bold">Mata-fome</span>
+                            <span class="block text-secondary-100 text-sm">O verdadeiro bate entope!</span>
+                        </div>
+                        <div class="badge">
+                            <span> R$ 25,99</span>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="https://media.gazetadopovo.com.br/2020/10/14152557/unilever-plant-based-hamburguer-rio-foto-Tomas-Rangel-divulgacao-960x540.jpg"
+                            alt="" class="w-full h-64 object-cover">
+                        <div class="m-4">
+                            <span class="font-bold">Padrão</span>
+                            <span class="block text-secondary-100 text-sm">Só o BASIC</span>
+                        </div>
+                        <div class="badge">
+                            <span> R$ 15,99</span>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="https://files.menudino.com/cardapios/3319/55.jpg" alt=""
+                            class="w-full h-64 object-cover">
+                        <div class="m-4">
+                            <span class="font-bold">X-frango</span>
+                            <span class="block text-secondary-100 text-sm">Fome de frango</span>
+                        </div>
+                        <div class="badge">
+                            <span> R$ 21,99</span>
+                        </div>
+                    </div>
+                </div>
+
+                <h4 class="font-semibold mt-12 pb-2 border-b border-yellow-100">Os mais pedidos</h4>
+                <div class="mt-8">
+
+                </div>
+
+                <div class="flex justify-center">
+                    <div class="bg-primary text-white p-2 rounded-full">
+                        Carregar mais
+                    </div>
+                </div>
+            </div>
+        </main>
     </div>
-
-    <main class="px-16 py-6 bg-gray-100">
-        <div class="py-6 flex justify-center md:justify-end ">
-            <a href="#" class="px-4">Entrar </a>
-            <a href="#">Inscrever-se </a>
-        </div>
-
-        <header>
-            <h2 class="text-red-500 text-4xl semibold">Lanches</h2>
-            <h2 class="text-red-500 text-lg semibold">Pros Grande</h2>
-        </header>
-
-        <div>
-            <h4 class="font-semibold mt-12 pb-2 border-b border-yellow-100">Últimos Lanches</h4>
-
-            <div class="mt-8">
-                <div class="card">
-                    <img src="https://d1ralsognjng37.cloudfront.net/10d6e58b-fee7-45bc-b666-a6c100c2c01e.jpeg" alt=""
-                        class="w-full h-64 object-cover">
-                    <div class="m-4">
-                        <span class="font-bold">Mata-fome</span>
-                        <span class="block text-secondary-100 text-sm">O verdadeiro bate entope!</span>
-                    </div>
-                    <div class="badge">
-                        <span> R$ 25,99</span>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <img src="https://media.gazetadopovo.com.br/2020/10/14152557/unilever-plant-based-hamburguer-rio-foto-Tomas-Rangel-divulgacao-960x540.jpg"
-                        alt="" class="w-full h-64 object-cover">
-                    <div class="m-4">
-                        <span class="font-bold">Padrão</span>
-                        <span class="block text-secondary-100 text-sm">Só o BASIC</span>
-                    </div>
-                    <div class="badge">
-                        <span> R$ 15,99</span>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <img src="https://files.menudino.com/cardapios/3319/55.jpg" alt="" class="w-full h-64 object-cover">
-                    <div class="m-4">
-                        <span class="font-bold">X-frango</span>
-                        <span class="block text-secondary-100 text-sm">Fome de frango</span>
-                    </div>
-                    <div class="badge">
-                        <span> R$ 21,99</span>
-                    </div>
-                </div>
-            </div>
-
-            <h4 class="font-semibold mt-12 pb-2 border-b border-yellow-100">Os mais pedidos</h4>
-            <div class="mt-8">
-
-            </div>
-
-            <div class="flex justify-center">
-                <div class="bg-primary text-white p-2 rounded-full">
-                    Carregar mais
-                </div>
-            </div>
-        </div>
-    </main>
 </body>
 
 </html>
