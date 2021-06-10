@@ -32216,6 +32216,24 @@ video {
   text-transform: uppercase
 }
 
+.btn {
+  --tw-bg-opacity: 1;
+  background-color: rgba(229, 231, 235, var(--tw-bg-opacity));
+  border-radius: 9999px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  --tw-text-opacity: 1;
+  color: rgba(206, 18, 18, var(--tw-text-opacity));
+  text-transform: uppercase;
+  letter-spacing: 0.05em
+}
+
 @media (min-width: 640px){
   .sm\:container{
     width: 100%;

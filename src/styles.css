@@ -11,3 +11,7 @@
 .badge {
     @apply bg-primary text-white text-xs uppercase font-bold rounded-full p-3 absolute top-0 mt-2 ml-2
 }
+
+.btn {
+    @apply bg-gray-200 text-primary rounded-full uppercase py-3 px-2 text-xs font-bold cursor-pointer tracking-wider
+}
