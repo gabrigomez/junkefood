@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="text-yellow-500 font-body">
+<body class="text-red-500 font-body">
     <div class="grid md:grid-cols-3">
         <div class="col md:col-span-1">
             <div>
@@ -22,17 +22,35 @@
                     <ul class="text-secondary">
                         <li class="text-bold">
                             <a href="">
-                                <span>Pagina Inicial</span>
+                                <i>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline-block"
+                                        viewBox="0 0 20 20" fill="currentColor">
+                                        <path
+                                            d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+                                    </svg>
+                                </i>
+                                <span class="text-primary">Pagina Inicial</span>
                             </a>
                         </li>
                         <li>
                             <a href="">
-                                <span>Sobre</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline-block" viewBox="0 0 20 20"
+                                    fill="currentColor">
+                                    <path fill-rule="evenodd"
+                                        d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                                <span class="text-primary">Sobre</span>
                             </a>
                         </li>
                         <li>
                             <a href="">
-                                <span>Contato</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline-block" viewBox="0 0 20 20"
+                                    fill="currentColor">
+                                    <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
+                                    <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
+                                </svg>
+                                <span class="text-primary">Contato</span>
                             </a>
                         </li>
                     </ul>
@@ -47,12 +65,12 @@
             </div>
 
             <header>
-                <h2 class="text-red-500 text-4xl semibold">Lanches</h2>
-                <h2 class="text-red-500 text-lg semibold">Pros Grande</h2>
+                <h2 class="text-primary text-4xl semibold">Lanches</h2>
+                <h2 class="text-primary text-sm semibold">Taxa de entrega: R$3,99</h2>
             </header>
 
             <div>
-                <h4 class="font-semibold mt-12 pb-2 border-b border-yellow-100">Últimos Lanches</h4>
+                <h4 class="font-semibold mt-12 pb-2 border-b border-secondary">Últimos Lanches</h4>
 
                 <div class="mt-8 grid md:grid-cols-3 gap-8">
                     <div class="card">
@@ -60,7 +78,7 @@
                             alt="" class="w-full h-64 object-cover">
                         <div class="m-4">
                             <span class="font-bold">Mata-fome</span>
-                            <span class="block text-secondary-100 text-sm">O verdadeiro bate entope!</span>
+                            <span class="block text-sm">O verdadeiro bate entope!</span>
                         </div>
                         <div class="badge">
                             <span> R$ 25,99</span>
@@ -72,7 +90,7 @@
                             alt="" class="w-full h-64 object-cover">
                         <div class="m-4">
                             <span class="font-bold">Padrão</span>
-                            <span class="block text-secondary-100 text-sm">Só o BASIC</span>
+                            <span class="block text-sm">Só o BASIC</span>
                         </div>
                         <div class="badge">
                             <span> R$ 15,99</span>
@@ -84,7 +102,7 @@
                             class="w-full h-64 object-cover">
                         <div class="m-4">
                             <span class="font-bold">X-frango</span>
-                            <span class="block text-secondary-100 text-sm">Fome de frango</span>
+                            <span class="block text-sm">Fome de frango</span>
                         </div>
                         <div class="badge">
                             <span> R$ 21,99</span>
@@ -92,7 +110,7 @@
                     </div>
                 </div>
 
-                <h4 class="font-semibold mt-12 pb-2 border-b border-yellow-100">Os mais pedidos</h4>
+                <h4 class="font-semibold mt-12 pb-2 border-b border-secondary">Os mais pedidos</h4>
                 <div class="mt-8">
 
                 </div>
