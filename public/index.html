@@ -78,15 +78,15 @@
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline-block" fill="none" viewBox="0 0 24 24"
                         stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M7 11l5-5m0 0l5 5m-5-5v12" />
+                            d="M18 9v3m0 0v3m0-3h3m-3 0h-3m-2-5a4 4 0 11-8 0 4 4 0 018 0zM3 20a6 6 0 0112 0v1H3v-1z" />
                     </svg>
                     Inscrever-se
                 </a>
             </div>
 
             <header>
-                <h2 class="text-primary text-4xl semibold">Lanches</h2>
-                <h2 class="text-primary text-sm semibold">Taxa de entrega: R$3,99</h2>
+                <h2 class="text-primary text-4xl semibold border-b border-yellow-200"">Burguers</h2>
+                <h2 class=" text-primary text-sm semibold">Taxa de entrega: R$3,99</h2>
             </header>
 
             <div>
@@ -131,12 +131,23 @@
                 </div>
 
                 <h4 class="font-semibold mt-12 pb-2 border-b border-secondary">Os mais pedidos</h4>
-                <div class="mt-8">
+                <div class="mt-8 grid md:grid-cols-3 gap-8">
+                    <div class="card hover:shadow-lg">
+                        <img src="https://catracalivre.com.br/wp-content/uploads/2016/09/X-tudo_X-tudo_divulgacao-450x300.jpg"
+                            alt="" class="w-full h-64 object-cover">
+                        <div class="m-4">
+                            <span class="font-bold">X-Junke</span>
+                            <span class="block text-sm">O campeão de vendas</span>
+                        </div>
+                        <div class="badge">
+                            <span> R$ 22,99</span>
+                        </div>
+                    </div>
 
                 </div>
 
-                <div class="flex justify-center">
-                    <div class="btn hover:text-red-500">
+                <div class="flex justify-center mt-4">
+                    <div class="btn hover:text-red-500 transform hover:scale-125 transition ease-out duration-75">
                         Carregar mais
                     </div>
                 </div>
